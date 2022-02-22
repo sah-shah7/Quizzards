@@ -30,6 +30,9 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+.pd-x-t-1{
+    padding-top:1rem;
+}
 
 .column-flex {
     display: flex;
@@ -38,9 +41,13 @@
     margin-right: -15px;
     margin-left: -15px;
 }
-
+.jus-cont-center{
+    justify-content: center;
+    align-items: center;
+}
 .pd-x-1{
     padding: 0 1rem 0 1rem;
 }
+
 
 
