@@ -1,0 +1,11 @@
+.link-a-title-font-color {
+  color: var(--teal);
+}
+.nav-container {
+  background-color: var(--black);
+  border: none;
+}
+
+.nav-bar-list-items-text {
+  color: var(--white);
+}
