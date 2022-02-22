@@ -6,26 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Sahil Shah">
-    <link rel="stylesheet" href="./stylesheets/shared/shared.css">
-    <link rel="stylesheet" href="./stylesheets/home.css">
+    <link rel="stylesheet" href="../../../stylesheets/shared/shared.css">
+    <link rel="stylesheet" href="../../../stylesheets/home.css">
+    <link rel="stylesheet" href="../../../stylesheets/quiz-category.css">
     <title>Quizzards</title>
 </head>
 
-<body>
-    <div class="page-wrapper">
+<body>  
+        <div class="page-wrapper">
         <!--top navigation bar-->
         <nav class="nav-container ">
             <div class="nav-bar-left">
                 <ul class="nav-bar-list">
                     <li class="nav-bar-title-text">
-                        <a class="link-a link-a-title-font-color" href="./index.html">Quizzards</a>
+                        <a class="link-a link-a-title-font-color" href="../../../index.html">Quizzards</a>
                     </li>
                 </ul>
             </div>
             <div class="nav-bar-right">
                 <ul class="nav-bar-list">
                     <li class="nav-bar-list-items nav-bar-list-items-text">
-                        <a class="link-a font-color-white" href="./index.html">Home</a>
+                        <a class="link-a font-color-white" href="../../../index.html">Home</a>
                     </li>
                     <li class="nav-bar-list-items nav-bar-list-items-text">
                         <a class="link-a font-color-white" href="#">Login</a>
@@ -38,17 +39,61 @@
         </nav>
         <!--top navigation bar end-->
         <!--main content-->
-        <section class="bg-hero pd-b-0">
+        <main class="bg-hero pd-b-0 pd-x-1">
             <div class="container">
-                <div class="row-flex">
+
+                <div class="column-flex">
                     <div class="main-container m-y-auto m-x-b-auto m-x-t text-center">
-                        <h1 class="heading-black text-capitalize">Quizzards</h1>
-                        <p class="lead pd-x-1">Quizzards is fun take on traditional quiz. It's really engaging & fun. 
-                            Try now!</p>
+                        <h1 class="heading-black text-capitalize">Quiz Categories</h1>
+                        <p class="lead pd-x-1">Choose Wisely!</p>
+                    </div>
+
+                    <div class="card-category-container row-flex row-flex-content m-y-auto m-x-b-auto m-x-t">
+
+
+
+                        <div class="card card-typ-1">
+                          
+                                <img class="vertical-card-image" src="../../assests/Images/manchester-united-wooden-logo-wall-hang-250x250.jfif" alt="category-1" />
+                            
+                            <div class="card-body">
+                                <h5 class="card-h-style f-s-h5">morbi enim-card title</h5>
+                                <p class="card-text-paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p>
+                            </div>
+
+                            <div class="card-buttons">
+                                <span class="btn-add-to-card">
+                                    <a href="./src/pages/category/quiz-category.html"><button class="btn-1 quiz-button-primary">Play</button></a>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="card card-typ-1">
+                          
+                            <img class="vertical-card-image" src="../../assests/Images/barcelona.jpeg" alt="category-2" />
+                        
+                        <div class="card-body">
+                            <h5 class="card-h-style f-s-h5">morbi enim-card title</h5>
+                            <p class="card-text-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                        </div>
+
+                        <div class="card-buttons">
+                            <span class="btn-add-to-card">
+                                <a href="./src/pages/category/quiz-category.html"><button class="btn-1 quiz-button-primary">Play</button></a>
+                            </span>
+                        </div>
+                    </div>
+
+
+
                     </div>
                 </div>
             </div>
-        </section>
+        </main>
     </div>
 </body>
 
