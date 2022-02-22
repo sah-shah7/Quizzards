@@ -1,0 +1,50 @@
+@import url(../stylesheets/globalVar.css);
+
+body{
+    margin: 0;
+    font-family: "Inter UI", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.font-color-white{
+    color:white ;
+}
+
+.font-color-primary{
+    color:var(--primary);
+}
+
+.bg-hero{
+    background-color: var(--black);
+    background-size: cover;
+    position: relative;
+}
+.bg-hero .container{
+    z-index: 3;
+}
+
+.main-container{
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+.heading-black {
+    font-weight: 800;
+}
+.lead {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.quiz-button-primary{
+    color: #11171a;
+    background-color: #1de9b6;
+    border-color: #1de9b6;
+}

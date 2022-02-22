@@ -1,0 +1,29 @@
+.pd-b-0 {
+  padding-bottom: 0;
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.text-center{
+    text-align: center;
+}
+.m-y-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-x-b-auto{
+    margin-bottom: auto;
+}
+
+.m-x-t{
+    margin-top: 10%;
+}
+
+.pd-x-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
