@@ -1,0 +1,6 @@
+.ans-color-success{
+    background-color: var(--success);
+}
+.ans-color-wrong{
+    background-color: var(--danger);
+}
