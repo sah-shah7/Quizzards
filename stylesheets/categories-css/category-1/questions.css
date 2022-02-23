@@ -1,0 +1,28 @@
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+
+.header-question{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.body-question{
+    margin: 1rem 0 1rem 0;
+}
+.ans{
+    outline: none;
+    border:none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+.ans-color-primary{
+    background-color: var(--gray);
+}
